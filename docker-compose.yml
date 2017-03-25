@@ -1,0 +1,7 @@
+version: '2'
+services:
+  webpage:
+    build: src/webapp
+    image: lunchtime/webpage:latest
+    ports:
+        - "80:80"
